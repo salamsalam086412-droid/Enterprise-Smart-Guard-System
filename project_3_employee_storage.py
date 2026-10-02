@@ -1,5 +1,5 @@
 def save_employee_data():
-    employee = {}
+    employees = {}
     for i in range(2):
       emp_id = input(f"Enter ID for employee {i+1}: ")
       emp_name = input(f"Enter Name for employee {i+1}: ")
